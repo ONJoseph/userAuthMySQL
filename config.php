@@ -3,7 +3,7 @@
 
 function db() {
     //set your configs here
-    $host = "127.0.0.1";
+    $host = "197.210.54.136";
     $user = "root";
     $db = "zuriphp";
     $password = "";
