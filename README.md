@@ -52,4 +52,29 @@ It has the following
 - ## `deleteaccount()`
   this function to delete the user with the given id from the button on the front-end (the button name is ‘id’ you can access it within the post array when the button is pressed
 
+## Author
+
+👤 **Joseph Ogbole**
+
+- GitHub: [@ONJoseph](https://github.com/ONJoseph)
+- Twitter: [@ONJoseph1](https://twitter.com/ONJoseph1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/o-n-joseph-ba8425147/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ONJoseph/userAuthMySQL/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Zuri for the Readme Template
+
+## 📝 License
+
+This project is [MIT](./LICENCE) licensed.
 
