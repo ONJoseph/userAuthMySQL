@@ -25,14 +25,18 @@
   </div>
 </nav>
 <div class="container justify-content-center">
-     <h1 class="">
+    <h1 class="">
        Welcome to Zuri Authentication 
-       <?php session_start();
-        if(isset($_SESSION)){ echo $_SESSION['username'];} ?>
+       <?php 
+       if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+        echo (isset($_SESSION['username'])) ? $_SESSION['username'] : null;
+      }
+      ?>
     </h1>
 
      <form action="php/action.php" method="GET">
-        <button class="btn-primary" name="all">
+        <button class="btn btn-primary" name="all">
         Show All Users
        </button>
      </form>
